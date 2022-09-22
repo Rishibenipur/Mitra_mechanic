@@ -1,0 +1,202 @@
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.nav_item{
+  
+ 
+  padding-left: 15px;
+  
+}
+
+#navbarSupportedContent{
+ position: absolute;
+ right: 100px;
+ top: 0%;
+
+}
+
+.hov a:hover{
+  border-radius: 5px;
+  background-color:#6b6a6a;
+}
+
+#im{
+ height:60px;
+ width:300px;
+  position: relative;
+  top: -8px;
+
+}
+/*Navbar css ends here*/
+  
+
+/*About css starts here*/
+
+.xyz{
+  background-color: white
+}
+.content{
+  padding-left: 20px;
+}
+
+
+.para{
+ color: #e1e1e1;
+padding-left: 25px;
+font-size: 16px;
+}
+.paradown{
+  
+  height: 320px;
+  font-size: 16px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: left;
+  margin-left: 24px;
+  color: black;
+  
+}
+@media screen and (max-width:950px) {
+  .paradown {
+      
+     height: 400px;
+      
+    }
+  }
+  @media screen and (max-width:750px) {
+    .paradown {
+        
+       height: 500px;
+        
+      }
+    }
+    @media screen and (max-width:710px) {
+      .paradown {
+          
+         height: 560px;
+          
+        }
+      }
+    @media screen and (max-width:640px) {
+      .paradown {
+          
+         height: 640px;
+          
+        }
+      }
+      #about{
+        margin-top: 30px;
+      }
+
+
+/*About css end here*/
+
+/*Footer css Starts here*/
+
+.in p{
+display: inline;
+padding: 14px;
+font-weight: 400;
+}
+.in i{
+  padding-top: 10px;
+}
+#spec{
+  padding-left: 34px;
+}
+#rad{
+  border-radius: 10px;
+  border: 1px solid white;
+  padding: 7px 10px;
+  font-size: 16px;
+}
+.itag{
+  color: black;
+  
+  border-radius: 50%;
+  
+  text-align: center;
+ 
+}
+
+.first_letter{
+  color: #e31837;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  
+}
+.second_letter{
+  font-family:cursive;
+}
+.left a{
+  color: black;
+  font-size: 14px;
+  
+}
+.left a:hover{
+  color:white;
+}
+.sec_last{
+  height: 60px;
+  padding-top: 20px;
+  font-size: 16px;
+  font-weight: 500;
+  
+}
+.last{
+  height: 60px;
+  padding-top: 20px;
+  font-size: 16px;
+ 
+
+}
+.lastt{
+  height: 10px;
+  
+}
+.aq{
+  text-align: end;
+}
+p{
+  font-size: 14px;
+}
+@media screen and (max-width:1000px) {
+  .last {
+     height: 30px;
+     margin: 0%;
+     padding-top: 5px;
+     text-align: center;
+     font-size: 14px;
+    }
+  }
+  @media screen and (max-width:762px) {
+      .left {
+         width: 33%;
+        }
+      }
+
+
+.sec_last{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: end;
+   
+    
+}
+.sec_last i{
+  padding-left: 20px;
+  font-size: 24px;
+  border-radius: 50%;
+  color: rgb(64, 62, 62);
+
+}
+.sec_last a{
+  text-decoration:none;
+  color: black;
+
+}
+@media screen and (max-width:762px) {
+  .sec_last{
+    text-align: start;
+    }
+  }

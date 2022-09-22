@@ -1,0 +1,257 @@
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.nav_item{
+    
+   
+    padding-left: 15px;
+    
+}
+
+#navbarSupportedContent{
+   position: absolute;
+   right: 100px;
+   top: 0%;
+
+}
+
+.hov a:hover{
+    border-radius: 5px;
+    background-color:#6b6a6a;
+}
+
+#im{
+   height:60px;
+   width:300px;
+    position: relative;
+    top: -8px;
+
+  }
+
+
+
+    /*Navbar Ends here*/
+    
+
+h1{
+    letter-spacing: 0px; 
+    font-size: 42px;
+}
+
+#about{
+    background-image: url('../img//Screenshot\ \(90\).png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 70px;
+    margin-bottom: 80px;
+   
+}
+.xyz{
+    background-color: rgb(247, 247, 247);
+}
+.content{
+    padding-left: 20px;
+}
+.xc{
+    background-color: black;
+}
+
+.para{
+    color: aliceblue;
+  padding-left: 25px;
+  font-size: 18px;
+}
+.paradown{
+    
+    height: 220px;
+    overflow-y: hidden;
+    font-size: 16px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: left;
+    margin-left: 24px;
+    
+    color: black;
+    line-height: 35px;
+}
+.bttn{
+    margin-left: 24px;
+    
+    
+}
+#bttn1{
+   border: none;
+    margin-right: 15px;
+    color: #e31837;
+    padding: 7px 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+#bttn2{
+    border: none;
+    color: white;
+    padding:7px 10px;
+    background-color:#e31837;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.pict{
+    height: 190px;
+    
+    
+      
+}
+.gall{
+    background-color: white;
+}
+.gall1{
+    background-color:#e1e1e1;
+    
+}
+#event{
+    font-size: larger;
+}
+/* Adress red and black Style Starts here*/
+
+.red_loc{
+   margin-left: 100px;
+    padding: 50px;
+   color: aliceblue;
+   background-color:  #e31837;
+   height: 370px;
+   margin-top: -80px;
+}
+.black_loc{
+    background-color: black;
+    margin-top: -40px;
+    height: 370px;
+    padding: 50px;
+    color: aliceblue;
+}
+@media screen and (max-width:1000px) {
+  .red_loc {
+      
+      margin-left: 0%;
+      
+    }
+  }
+  @media screen and (max-width:1000px) {
+    .red_black {
+       
+        margin-left: 0%;
+       
+      }
+    }
+
+  .sec{
+    margin-top: 130px;
+  }
+  
+  .in p{
+  display: inline;
+  padding: 14px;
+  font-weight: 400;
+  }
+  .in i{
+    padding-top: 10px;
+  }
+  #spec{
+    padding-left: 34px;
+  }
+  #rad{
+    border-radius: 10px;
+    border: 1px solid white;
+    padding: 7px 10px;
+    font-size: 16px;
+  }
+  .itag{
+    color: black;
+    
+    border-radius: 50%;
+    
+    text-align: center;
+   
+  }
+
+  .first_letter{
+    color: #e31837;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+  }
+  .second_letter{
+    font-family:cursive;
+  }
+  .left a{
+    color: black;
+    font-size: 14px;
+    
+  }
+  .left a:hover{
+    color:white;
+  }
+  .sec_last{
+    height: 60px;
+    padding-top: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    
+  }
+  .last{
+    height: 60px;
+    padding-top: 20px;
+    font-size: 16px;
+   
+ 
+  }
+  .lastt{
+    height: 10px;
+    
+  }
+ .aq{
+    text-align: end;
+ }
+ p{
+    font-size: 14px;
+ }
+  @media screen and (max-width:1000px) {
+    .last {
+       height: 30px;
+       margin: 0%;
+       padding-top: 5px;
+       text-align: center;
+       font-size: 14px;
+      }
+    }
+    @media screen and (max-width:762px) {
+        .left {
+           width: 33%;
+          }
+        }
+
+
+  .sec_last{
+      color: black;
+      font-size: 18px;
+      font-weight: bold;
+      text-align: end;
+     
+      
+  }
+  .sec_last i{
+    padding-left: 20px;
+    font-size: 24px;
+    border-radius: 50%;
+    color: rgb(64, 62, 62);
+
+  }
+  .sec_last a{
+    text-decoration:none;
+    color: black;
+  
+  }
+  @media screen and (max-width:762px) {
+    .sec_last{
+      text-align: start;
+      }
+    }
